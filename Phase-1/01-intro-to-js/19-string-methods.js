@@ -2,7 +2,7 @@
 // console.log(username.length)
 
 // console.log(username.charAt(2))
-// console.log(username.endsWith('eb'))
+// console.log(username.endsWith('eb'))  //returns boolean value
 
 // let str = 'abcd'
 // console.log(str.charCodeAt(1))
@@ -15,5 +15,9 @@
 // console.log(str.indexOf('haseeb',3))
 // console.log(str.includes('haseeb')) //returns the boolean value if the string includes the substring or not
 
-let str = 'mohammed asif mohammed'
-console.log(str.lastIndexOf('mohammed',14))
+// let str = 'mohammed asif mohammed'
+// console.log(str.lastIndexOf('mohammed',14))
+// console.log(isNaN(19-'dfg'))
+// console.log(isFinite(0/10))
+console.log(Number.isInteger(Math.round(9.84)))
+console.log(typeof NaN)
