@@ -19,5 +19,6 @@
 // console.log(str.lastIndexOf('mohammed',14))
 // console.log(isNaN(19-'dfg'))
 // console.log(isFinite(0/10))
-console.log(Number.isInteger(Math.round(9.84)))
-console.log(typeof NaN)
+// console.log(Number.isInteger(Math.round(9.84)))
+// console.log(typeof NaN)
+
