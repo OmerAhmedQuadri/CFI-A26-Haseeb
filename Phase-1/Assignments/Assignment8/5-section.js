@@ -47,5 +47,5 @@ import readlineSync from 'readline-sync'
 // calculator()
 
 
-//Didn't get this right
+//Didn't get this answer right
 
