@@ -1,0 +1,41 @@
+// let user1 = {
+//     name : 'omer',
+//     age : 21
+// }
+
+// let user2 = {
+//     ...user1
+// }
+
+
+//console.log(user2)
+let user1 = {
+    name : 'haseeb'
+,   age: 20
+}
+
+let address = {
+    city: 'hyderabad',
+    pin: 500000
+}
+
+let user1withaddress = {...user1}
+user1withaddress.city = address.city
+user1withaddress.pin = address.pin
+
+console.log(user1)
+console.log(user1withaddress)
+
+
+//let fruits = {
+//  1: 'banana',
+//  2: 'apple'
+//  }
+// let veggies={
+//   3:'tomatoes',
+//   4: 'potatoes'
+// }
+//
+//
+//
+//
