@@ -90,21 +90,18 @@
 
 
 //Question19
-// const users = {
-//     firstName: 'John',
-//     lastName: 'Doe',
-//     age: 28,
-//     email: 'john@example.com',
-//     isActive: true
-// }
+const users = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 28,
+    email: 'john@example.com',
+    isActive: true
+}
 
-// let arr1 = Object.keys(users)    
-// let arr2 = Object.values(users)
-// arr1.forEach((e,i)=>{
-//  console.log(arr1[i],':',arr2[i]);
- 
-// })
-
+let arr1 = Object.keys(users)
+arr1.forEach((e) => {
+    console.log(e, ':', users[e]);
+})
 
 // Question20
 // const nums = [-5, -3, 0, 2, 4, -1, 7, -8]
