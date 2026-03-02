@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Omer",
+        "sge": 21,
+        "city": "Hyderabad"
+    },
+    {
+        "name": "Fahad",
+        "age": 21,
+        "city": "Masabtank"
+    },
+    {
+        "name": "Fazal",
+        "age": 22,
+        "city": "Tolichowki"
+    },
+    {
+        "name": "Haseeb",
+        "age": 21,
+        "city": "Hyderabad"
+    },
+    {
+        "name": "Haseeb",
+        "age": 20,
+        "city": "Hyderabad"
+    },
+    {
+        "name": "Rashford",
+        "age": 24,
+        "city": "Barcelona"
+    }
+]

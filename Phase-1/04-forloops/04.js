@@ -43,14 +43,14 @@ let matrix = [
 // }
 // console.log(sum);
 
-// for (let i = 0; i < matrix.length; i++) {
-//     let str = ''
-//     for (let j = 0; j < matrix[i].length; j++) {
-//         // str = str + matrix[i][j] + ' '
-//         // console.log(str);
-        // matrix[i][j]= matrix[i][j]*2
-//         console.log(matrix[i][j]);
-//     }
+for (let i = 0; i < matrix.length; i++) {
+    let str = ''
+    for (let j = 0; j < matrix[i].length; j++) {
+        // str = str + matrix[i][j] + ' '
+        // console.log(str);
+        matrix[i][j]= matrix[i][j]*2
+        console.log(matrix[i][j]);
+    }
     
-// }
+}
 

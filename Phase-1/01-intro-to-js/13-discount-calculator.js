@@ -1,10 +1,11 @@
-// const price=  255
-// const discount = 15
-// // let discountedAmount = listedPrice * discountedPercentage/100
-// // console.log(discountedAmount)
-// const sellingPrice = (price * 15/100)
-// console.log(sellingPrice)
+const price=  255
+const discount = 15
+// let discountedAmount = listedPrice * discountedPercentage/100
+// console.log(discountedAmount)
+const sellingPrice = (price * 15/100)
+console.log(sellingPrice)
 
+console.log(225 - 191.25);
 
 
 

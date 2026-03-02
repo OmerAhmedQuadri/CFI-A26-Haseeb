@@ -110,9 +110,81 @@
 
 
 //Question9
-const Temperature = {
+// class Temperature  {
+//     #celcius
+//     constructor(celcius){
+//      this.#celcius = celcius
+//     }
     
+//     getCelcius(){
+//         return this.#celcius
+//     }
+//     getFahrenheit(){
+//         return this.#celcius*9/5+32
+//     }
+//     getKelvin(){
+//         return this.#celcius + 273.15
+//     }
+//     setCelcius(val){
+//         if(val >= -273.15){
+//             return this.#celcius = val
+//         }
+//         else{
+//             return 'Enter valid Celcius temperature'
+//         }
+        
+//     }
+// }
+// const temperature = new Temperature(50)
+// console.log(temperature.getCelcius());
+// console.log(temperature.getFahrenheit());
+// console.log(temperature.getKelvin());
+// console.log(temperature.setCelcius(8));
+
+
+
+
+
+//Question10
+class ShoppingCart {
+    #items 
+    constructor(){
+        this.#items = []
+        
+    }
+    addItem(name, price, quantity){
+        const item = {name, price, quantity}
+     this.#items.push(item)   
+    }
+    removeItem(name){
+       this.#items = this.#items.filter(item => item.name != name)
+    }
+    getTotal(){
+        let total = 0 
+        for(let i = 0; i <this.#items.length; i++){
+          total += this.#items[i].price * this.#items[i].quantity
+        }
+        console.log(total);
+        return  
+    }
+    getItemCount(){
+        console.log(this.#items.length)
+        return
+    }
+    displayCart(){
+        console.log(this.#items);
+        
+    }
+
 }
+const cart = new ShoppingCart()
+cart.addItem('apple', 20, 4)
+cart.addItem('banana', 10, 4)
+cart.addItem('strawberry', 50, 3)
+cart.removeItem('apple')
+cart.getItemCount()
+cart.getTotal()
+cart.displayCart()
 
 
 

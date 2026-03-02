@@ -1,3 +1,4 @@
+//Stack follows First in last out or last in first out
 class Stack {
     #data = []
     height = 0

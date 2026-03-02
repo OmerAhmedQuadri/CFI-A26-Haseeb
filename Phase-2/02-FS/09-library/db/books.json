@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1772002046848,
+        "title": "Transformers",
+        "author": "Cain",
+        "price": 1220
+    },
+    {
+        "id": 1772002087558,
+        "title": "Willy Wonka",
+        "author": "Charlie",
+        "price": 300
+    },
+    {
+        "id": 1772002111959,
+        "title": "JS",
+        "author": "BE",
+        "price": 123
+    }
+]
