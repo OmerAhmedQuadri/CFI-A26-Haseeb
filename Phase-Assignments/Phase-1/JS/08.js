@@ -7,12 +7,12 @@ function sumOfArray(arr) {
             throw new Error ('Please enter a Array with valid elements')
         }
     }
-    let newArr = arr.reduce((acc, curr) => {
+    let arrSum = arr.reduce((acc, curr) => {
         let sum = 0
         sum = acc + curr
         return sum
     })
-    return newArr
+    return arrSum
 }
 console.log(sumOfArray(arr));
 //15

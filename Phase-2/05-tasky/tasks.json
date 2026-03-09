@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1772694672678,
+        "task": "prepare for phase 1",
+        "deadline": "monday",
+        "priority": "high"
+    },
+    {
+        "id": 1772694672679,
+        "task": "do immence ibadah",
+        "deadline": "15 days",
+        "priority": "highh"
+    },
+    {
+        "id": 1772694672680,
+        "task": "Don't say the N word",
+        "deadline": "today",
+        "priority": "medium"
+    }
+]

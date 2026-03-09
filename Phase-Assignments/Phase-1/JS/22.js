@@ -2,7 +2,7 @@
 let arr = [1, 2, 3, 4, 5]
 
 let average = arr.reduce((acc,curr)=>{
-    let sum = acc+curr
+    let sum = acc+curr/arr.le
     return sum
-})
-console.log(average/arr.length);
+},0)
+console.log(average);
