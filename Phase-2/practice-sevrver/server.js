@@ -6,9 +6,9 @@ const PORT = 3000
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    res.send('Server is running')
-})
+// app.get('/', (req, res) => {
+//     res.send('Server is running')
+// })
 
 app.get('/api/movies', getAllMovies)
 
@@ -25,6 +25,8 @@ app.delete('/api/delete/:id', deleteMovie)
 app.listen(PORT, () => {
     console.log('Server is running at http://localhost:' + PORT)
 })
+
+
 
 /*
 GET: 
