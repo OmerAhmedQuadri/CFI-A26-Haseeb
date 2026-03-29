@@ -1,7 +1,8 @@
 import express from 'express'
 import './dbConnect.js'
 
-import { createTask } from './controller/task.controller.js'
+import { createTask , getAllTasks, getTaskById, getTaskByPriority, deleteTask} from './controller/task.controller.js'
+import taskRouter from './routes/task.router.js'
 
 const PORT = 3000
 const app = express()
@@ -15,8 +16,8 @@ app.get('/', (req, res) => {
     })
 })
 
+app.use('/api/tasks/', taskRouter)
 
-app.post('/api/tasks/create', createTask)
 
 app.use((req, res) => {
     res.status(404).send({
@@ -30,6 +31,11 @@ app.listen(PORT, () => {
 })
 
 
+// app.get('/api/tasks', getAllTasks)
+// app.get('/api/tasks/:id', getTaskById)
+// app.get('/api/tasks/priority/:priority', getTaskByPriority)
+// app.get('/api/tasks/delete', deleteTask)
+// app.post('/api/tasks/create', createTask)
 
 /*
 Routes:
