@@ -4,7 +4,7 @@ dotenv.config()
 
 const resend = new Resend(process.env.resend_API);
 
-async function sendEMail(userData) {
+export async function sendEmail(userData) {
   const { data, error } = await resend.emails.send({
     from: 'mail@haseebuddin.in',
     to: data.to,
@@ -20,11 +20,4 @@ async function sendEMail(userData) {
 }
 
 
-const dummyData = {
-    to: 'sportsverse69@gmail.com',
-    subject: 'Job Application',
-    html: 'no money sarr'
 
-}
-
-sendEMail(dummyData)
