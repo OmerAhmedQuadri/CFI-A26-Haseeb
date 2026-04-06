@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#container {
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+#container h1 {
+    padding: 10px;
+}
+
+#input-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#input-box {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 25px;
+}
+
+#input-row{
+    display: flex;
+    gap: 70px;
+}
+
+#add-task-btn {
+    border: none;
+    
+    height: 45px;
+    border-radius: 4px;
+    padding-inline: 20px;
+    background-color: blueviolet;
+    color: white;
+    white-space: nowrap;
+    width: 100px;
+}
+
+#add-task-btn:hover {
+    background-color: rgb(124, 25, 216);
+    color: aliceblue;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 5px;
+    padding-inline: 20px;
+    margin: 5px;
+    background-color: rgb(61, 61, 61);
+}
+li:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+li button{
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    padding-inline: 10px;
+}
+
+li button:hover{
+    background-color: rgb(46, 46, 46);
+    color: rgb(180, 180, 180);
+}
+.completed p {
+    text-decoration: line-through;
+}
+
+.completed button{
+    background-color: rgb(190, 0, 0);
+}
+
+
+
+
+/* #task-container {
+    align-items: center;
+} */
