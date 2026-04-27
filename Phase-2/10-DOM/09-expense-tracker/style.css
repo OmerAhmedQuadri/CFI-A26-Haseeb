@@ -33,6 +33,7 @@ body {
     width: 100%;
 }
 
+
 #expense-form {
     display: flex;
     flex-direction: column;
@@ -80,13 +81,14 @@ body {
 
 li{
     list-style: none;
-    padding: 8px;
+    padding: 5px;
     background-color: rgb(33, 33, 153);
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
+    margin: 2px;
     
 }
 
