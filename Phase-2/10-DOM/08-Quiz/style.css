@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+#quiz-container {
+    background: #1f1f2e;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+#question-text {
+ font-size: 18px;
+ margin-bottom: 20px;
+ line-height: 1.4;
+}
+
+#choice-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#choice-list li{
+    background: #2c2c3f;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: left;
+}
+
+#choice-list li:hover {
+    background: linear-gradient(135deg, #6a11cb, #2575fc) !important;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.selected {
+    background: linear-gradient(135deg, #6a11cb, #2575fc) !important;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #681fce, #ffb347);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+transform: scale(1.03);
+background: linear-gradient(135deg, #342eda, #62dd3c);
+}
+
+.hidden {
+    display: none;
+}
+
+#result-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
