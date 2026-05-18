@@ -1,5 +1,5 @@
 import { validatePassword } from "../services/auth.services.js"
-import { findUserByEmail } from "../services/user.services.js"
+import { findUserByEmail, findUserByEmailAndDelete } from "../services/user.services.js"
 
 const registerValitador = async ({ fullname, email, password }) => {
     const errors = {}
@@ -15,7 +15,7 @@ const registerValitador = async ({ fullname, email, password }) => {
     return errors
 }
 
-export const registerMiddleware = async (req, res) => {
+export const registerMiddleware = async (req, res, next) => {
     try {
         const { fullname, email, password } = req.body || {}
         const errors = await registerValitador({ fullname, email, password })
