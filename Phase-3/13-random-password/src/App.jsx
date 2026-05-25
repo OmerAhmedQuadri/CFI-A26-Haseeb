@@ -25,6 +25,8 @@ const App = () => {
     symbolsAllowed
   ].filter(Boolean).length
 
+  console.log(selectedCount);
+
 
   const refreshPassword = () => {
     generatePassword()

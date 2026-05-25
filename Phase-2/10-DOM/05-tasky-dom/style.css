@@ -18,9 +18,9 @@ body {
 #container {
     display: flex;
     background-color: rgb(51, 49, 49);
-    padding: 20px;
-    height: 500px;
-    width: 500px;
+    padding: 10px;
+    min-height: 400px;
+    min-width: 200px;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -73,7 +73,7 @@ li {
     display: flex;
     justify-content: space-between;
     border-radius: 3px;
-    padding: 5px;
+    padding: 10px;
     padding-inline: 20px;
     margin: 5px;
     background-color: rgb(61, 61, 61);
