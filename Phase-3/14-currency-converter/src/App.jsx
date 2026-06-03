@@ -16,9 +16,9 @@ const App = () => {
     settoCurrencyValue(fromCurrencyValue * rate)
   }
   return (
-    <div className='flex justify-center items-center min-h-screen flex-col bg-gradient-to-br from-purple-950 via-blue-950 text-white'>
+    <div className='flex justify-center items-center min-h-screen flex-col bg-linear-to-br from-purple-950 via-blue-950 text-white'>
       <div className='flex flex-col justify-center items-center gap-8 w-full max-w-2xl p-8 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20'>
-        <p className='font-bold text-4xl text-center mb-8 bg-gradient-to-r' >Currency Converter: </p>
+        <p className='font-bold text-4xl text-center mb-8 bg-linear-to-r' >Currency Converter: </p>
         <div className="grid grid-cols-[60px_1fr_180px] gap-4 items-center">
           <label htmlFor="fromCurrency" className="text-lg font-medium text-white text-right">From: </label>
           <input type="number" id='fromCurrency' className=' no-spinner w-full p-3 rounded-xl border border-white/10 text-white bg-white/5 outline-none transition ' value={fromCurrencyValue} onChange={(e) => setfromCurrencyValue(e.target.value)} />
